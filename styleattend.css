@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: #fff7f7;
+  display: flex;
+}
+
+.icontkj {
+  background: #105ec5;
+  width: 240px;
+  height: 50px;
+}
+div.icontkj {
+  align-content: center;
+}
+.icontkj p {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  position: relative;
+  width: 200px;
+  height: 100%;
+  background-color: #fff7f7;
+  transition: 0.5s;
+}
+.nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-left: 30px;
+}
+.nav ul li {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  list-style: none;
+  background-color: #105ec5;
+  border: 2px solid #105ec5;
+  border-radius: 25px;
+}
+.nav ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 50px;
+  height: 50px;
+  line-height: 60px;
+  text-align: center;
+}
+/* span.title {
+  position: relative;
+  width: 100px;
+  height: 20px;
+  font-size: small;
+} */
+.nav ul li a .title {
+  position: relative;
+  display: block;
+  min-width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.user-pic {
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.profilepic {
+  display: flex;
+  flex-direction: row;
+}
+.contentprofilepic {
+  margin-left: 20px;
+}
+
+.content {
+  display: flex;
+}
+.content-hello {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.content-hello p {
+  width: 400px;
+}
+
+.content-login {
+  background: #badaff;
+  width: 700px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+  border: 2px solid #105ec5;
+  border-radius: 10px;
+}
+
+.recap {
+  position: absolute;
+  margin-top: 75px;
+
+  width: 306px;
+  height: 180px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead {
+  background-color: #0077fe;
+}
+
+thead tr th {
+  font-weight: 500;
+  color: #ffffff;
+}
+th {
+  font-weight: 500;
+}
